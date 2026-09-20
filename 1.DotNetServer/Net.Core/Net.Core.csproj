@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <ApplicationIcon />
+    <OutputType>WinExe</OutputType>
+    <StartupObject />
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile></DocumentationFile>
+    <OutputPath>bin\Debug\netcoreapp2.1\</OutputPath>
+    <NoWarn>1701;1702;1591</NoWarn>
+    <WarningLevel>2</WarningLevel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AlibabaCloud.SDK.Dysmsapi20170525" Version="2.0.23" />
+    <PackageReference Include="AlibabaCloud.SDK.Imagerecog20190930" Version="1.0.7" />
+    <PackageReference Include="Alipay.AopSdk.Core" Version="2.1.0" />
+    <PackageReference Include="Baidu.AI" Version="4.15.12" />
+    <PackageReference Include="DotNetCore.NPOI" Version="1.2.3" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="2.1.30" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.Extensions.PlatformAbstractions" Version="1.1.0" />
+    <!-- MySql.Data 显式钉到 8.0.32：sqlSugarCore 5.0.0.11 传递依赖的 8.0.15 与 MySQL 8.0.30+ 不兼容，
+         连接/查询会抛 KeyNotFoundException（CharSet=utf8 时报 key 25971、utf8mb4 时报 27747），本项目在 MySQL 8.0.41 上必须升级 -->
+    <PackageReference Include="MySql.Data" Version="8.0.32" />
+    <PackageReference Include="NETCore.MailKit" Version="2.0.2" />
+    <PackageReference Include="sqlSugarCore" Version="5.0.0.11" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="4.0.1" />
+  </ItemGroup>
+
+</Project>
