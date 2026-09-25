@@ -52,6 +52,18 @@
 
 
 
+## 📥 项目更新下载地址
+
+本项目会持续更新，更新后的完整包优先同步到这里，建议保存备用：
+
+下载地址：[https://pan.xunlei.com/s/VP2C_b9dyI6FLUGXOZ5f9NXXA1?pwd=z8yd#](https://pan.xunlei.com/s/VP2C_b9dyI6FLUGXOZ5f9NXXA1?pwd=z8yd#)
+
+提取码：`z8yd`
+
+> 链接失效或需要最新版本：通过微信公众号 **【斯内普的数字坩埚】** 获取。
+
+---
+
 ## 📲 获取更多帮助和服务
 
 ### 🔍 联系我们
